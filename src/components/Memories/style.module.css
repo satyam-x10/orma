@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    /* Adjust the number of columns as needed */
+    /* grid-template-rows: repeat(auto-fill, 120px); */
+    /* Adjust the height as needed */
+    grid-gap: 3px;
+    background-color: #eee;
+    margin-top: -20px;
+}
+
+.grid-item {
+    grid-template-rows: repeat(auto-fill, 136px);
+    display: grid;
+    background-color: inherit;
+}
+.grid_image {
+    transition: opacity 0.5s ease-in-out;
+}
+.loadingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* for vertical centering */
+    height: 30vh;
+}
+.orma-page-container {
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 53px;
+}
+.smallTextUnderTitle {
+    font-size: 12px;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+.ormaFeedTitles {
+    font-family: 'Varela Round', sans-serif;
+}

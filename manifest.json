@@ -1,0 +1,8 @@
+{
+    "name": "Orma AI",
+    "short_name": "Orma",
+    "description": "Orma AI",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#000000"
+}

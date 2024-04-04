@@ -1,0 +1,240 @@
+.orma_recent_view {
+    display: flex;
+    padding-left: 18px;
+    gap: 10px;
+    overflow-x: scroll;
+    height: 270px;
+    margin-top: 10px;
+}
+
+.orma_recent_view {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.orma_recent_view::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari and Opera */
+}
+
+.orma_recent_item {
+    background: #fff;
+    width: 150px;
+    height: 220px;
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid #e2e2e2;
+}
+
+.orma_recent_title_box {
+    /* background: #fff; */
+    padding-top: 20px;
+    padding-left: 22px;
+    /* margin-bottom: 10px; */
+    font-size: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.orma_recent_image {
+    height: 130px;
+}
+
+.orma_recent_image img {
+    max-height: 130px;
+    height: 130px;
+    object-fit: cover;
+    /* border-radius: 5px; */
+}
+
+.orma_recent_item .banner-text {
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    width: 150px;
+    height: 23px;
+    min-height: 23px;
+    max-height: 23px;
+    overflow: hidden;
+}
+
+.orma_recent_item .banner-text-small {
+    top: 0;
+    font-size: 10px;
+    max-width: 150px;
+    overflow: hidden;
+    max-width: 150px;
+    overflow: hidden;
+    width: 150px;
+    height: 10px;
+
+}
+
+.bottom-button {
+    margin-top: 10px;
+}
+
+.orma_new_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    font-size: 65px;
+    flex-direction: column;
+}
+
+.recent {
+    background: rgb(238, 238, 238);
+    display: flex;
+    justify-items: start;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.bottom-tab-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    z-index: 1000;
+    height: 78%;
+    border-radius: 20px 20px 0 0;
+}
+
+.bottom-share-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: space-around;
+    background-color: #fff;
+    z-index: 1000;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+}
+
+.bottom-edit-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: space-around;
+    background-color: #fff;
+    z-index: 2000;
+    height: 45%;
+    border-radius: 20px 20px 0 0;
+}
+
+.bottom-banner-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: space-around;
+    background-color: #fff;
+    z-index: 2000;
+    height: 65%;
+    border-radius: 20px 20px 0 0;
+}
+
+.my_ormas_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my_orma_item{
+    margin: 15px;
+}
+.my-ormas-container{
+    width:50%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.my-ormas-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.my-ormas-top p{
+    font-size: 1.6rem;
+}
+.my-ormas-background{
+    display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+.my-ormas-background{
+    display: none;
+}
+.my_ormas_list{
+    justify-content: space-between;
+}
+.my_orma_item{
+    margin: 5px;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+ 
+    .bottom-tab-container {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+        top: 0;
+        height: auto !important;
+    }
+
+    .uploadContent {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+
+    .bottom-share-container,
+    .bottom-edit-container,
+    .bottom-image-container {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .bottom-share-container {
+        padding: 5px;
+    }
+}
+
+
+.tab {
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    margin: 5px;
+}
+
+/* Highlight active tab - optional */
+.active {
+    color: #007bff;
+    font-weight: bold;
+}

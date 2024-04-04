@@ -1,0 +1,88 @@
+.uploadContainer {
+    margin: 10px;
+}
+
+.uploadBox {
+    padding: 10px;
+}
+
+.upload-image {
+    width: 100%;
+}
+
+.upload-image img {
+    width: 100%;
+}
+
+.upload-description {
+    width: 100%;
+}
+
+.upload-page-round-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.upload-page-round-box2 {
+    padding-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+}
+
+.upload-title {
+    font-size: 25px;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.loading-bar {
+    position: relative;
+    width: '100%';
+    height: 20px;
+    border: 1px solid #000;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.loaded-bar {
+    position: relative;
+    width: '100%';
+    height: 20px;
+    border: 1px solid #000;
+    background: #000;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.loading-bar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000;
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.circle-icon {
+    padding: 57px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-size: 80px;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+}

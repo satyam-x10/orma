@@ -1,0 +1,194 @@
+.share-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-top {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+    width: 100%;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.share-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.share-inner p {
+    font-size: .5rem;
+}
+
+.share-inner h4 {
+    font-size: 18px;
+    padding: 0;
+    margin: 15px;
+}
+
+.share-right {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin-top: 0px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.share-footer {
+    background-color: #DCDCDC;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: .85rem;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.downloadQr {
+    background-color: #D9D9D9;
+    cursor: pointer;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: .75rem;
+}
+
+@media screen and (max-width: 550px) {
+    .share-container {
+        width: 100%;
+        padding: 15px;
+        padding-top: 5px;
+    }
+
+    .share-footer {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: .85rem;
+        border: none;
+        text-align: center;
+    }
+
+    .downloadQr {
+        background-color: #D9D9D9;
+        color: black;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: .85rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .share-right {
+        display: flex;
+        /* justify-content: space-between;
+        align-items: center; */
+        gap: 10px;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        /* margin-top: -20px; */
+    }
+
+    .share-inner h4 {
+        font-size: 18px;
+        margin: 0 0 20px 0;
+        width: 100%;
+        padding: 0;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .share-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .share-inner {
+        padding: 10px;
+    }
+
+    .share-footer {
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: .65rem;
+        border: none;
+        text-align: center;
+
+    }
+
+    .downloadQr {
+        background-color: #D9D9D9;
+        color: black;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: .65rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .share-right {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        /* margin-top: -20px; */
+    }
+
+    .share-inner h4 {
+        font-size: .95rem;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

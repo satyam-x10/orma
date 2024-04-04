@@ -1,0 +1,42 @@
+.image-processor-box {
+    display: flex;
+    gap: 10px;
+    margin: 2px;
+    height: 65px;
+    padding: 10px;
+    overflow-x: scroll;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.image-processor {
+    margin-bottom: 30px;
+    margin-top: -20px;
+    background: #fff;
+}
+
+.image-processor-image {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+
+.image-processor-title {
+    padding: 10px;
+    color: #444242;
+    font-size: 13px;
+}
+
+.image-processor-overlay {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    border-radius: 5px;
+    z-index: 1;
+}

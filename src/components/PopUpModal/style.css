@@ -1,0 +1,82 @@
+.popup-modal-container {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: white;
+  width: 30%;
+  /* Default width */
+  height: fit-content;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 99999;
+  display: block;
+}
+
+.popup-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  transition: all 0.3s;
+}
+
+.popup-modal-container-2 {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: white;
+  width: 30%;
+  /* Default width */
+  height: fit-content;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 99999;
+  display: block;
+}
+
+.popup-modal-backdrop-2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  transition: all 0.3s;
+}
+
+
+@media screen and (max-width: 550px) {
+  .popup-modal-container {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    display: none;
+  }
+
+  .popup-modal-backdrop {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .popup-modal-container-2 {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .coveronMobile {
+    display: none;
+  }
+}
